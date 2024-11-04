@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is data engineering?",
+        "answer": "Data engineering is the process of designing and building systems that collect, store, and analyze data at scale. It involves creating data pipelines, managing data storage, and ensuring data quality to make data accessible and useful for data scientists, analysts, and other stakeholders."
+    },
+    {
+        "question": "What is ETL in data engineering?",
+        "answer": "ETL stands for Extract, Transform, Load. It is a process in data engineering where data is extracted from multiple sources, transformed into a usable format, and loaded into a data warehouse or database for analysis and reporting."
+    },
+    {
+        "question": "What is a data pipeline?",
+        "answer": "A data pipeline is a series of steps or processes used to collect, process, and transfer data from one system to another. It automates the flow of data, allowing it to move seamlessly between sources, storage, and analysis tools."
+    },
+    {
+        "question": "What tools are commonly used in data engineering?",
+        "answer": "Some popular tools in data engineering include Apache Spark, Apache Kafka, Airflow for workflow management, Snowflake and BigQuery for data warehousing, and tools like Python, SQL, and Scala for data processing."
+    },
+    {
+        "question": "What is a data warehouse?",
+        "answer": "A data warehouse is a central repository for structured data collected from various sources. It is optimized for analytics and reporting, allowing users to perform complex queries and generate insights across large datasets."
+    },
+    {
+        "question": "How does data differ between relational and NoSQL databases?",
+        "answer": "Relational databases (e.g., MySQL, PostgreSQL) store data in structured tables with predefined schemas, while NoSQL databases (e.g., MongoDB, Cassandra) store data in flexible formats like JSON documents, enabling them to handle unstructured data and scale horizontally."
+    },
+    {
+        "question": "What is data partitioning?",
+        "answer": "Data partitioning is the process of dividing a large dataset into smaller, more manageable parts to improve query performance and efficiency. It is especially useful in distributed databases and data warehousing systems."
+    },
+    {
+        "question": "What is the role of a data lake?",
+        "answer": "A data lake is a storage repository that holds large volumes of raw, unstructured, or semi-structured data. It allows for flexible data storage, making it easier to process and analyze large datasets in their native format."
+    },
+    {
+        "question": "What is data governance?",
+        "answer": "Data governance refers to the management of data policies, standards, and practices to ensure data quality, security, and compliance within an organization. It involves setting up protocols for data access, usage, and security."
+    },
+    {
+        "question": "What is Apache Kafka used for in data engineering?",
+        "answer": "Apache Kafka is a distributed event streaming platform used for real-time data ingestion and processing. It enables applications to publish and subscribe to event streams, making it useful for building real-time data pipelines and streaming applications."
+    },
+    {
+        "question": "What is data ingestion?",
+        "answer": "Data ingestion is the process of importing data from various sources into a storage or processing system, like a data lake or data warehouse. It can be done in real-time or in batches, depending on the requirements."
+    },
+    {
+        "question": "What is data transformation in ETL?",
+        "answer": "Data transformation is the process of converting data from its raw form into a format suitable for analysis, typically by cleaning, aggregating, or reshaping the data as part of the ETL process."
+    },
+    {
+        "question": "What are batch and real-time processing?",
+        "answer": "Batch processing involves processing large amounts of data at once, typically at scheduled intervals. Real-time processing (or stream processing) handles data continuously as it arrives, allowing for real-time insights and actions."
+    },
+    {
+        "question": "What is the purpose of data modeling?",
+        "answer": "Data modeling is the process of defining the structure, relationships, and constraints of data within a database. It ensures that data is organized, standardized, and efficiently stored, making it easier to query and analyze."
+    },
+    {
+        "question": "How is data quality maintained in data engineering?",
+        "answer": "Data quality is maintained through various practices such as data validation, cleansing, de-duplication, and monitoring. Ensuring data quality is essential to prevent errors and ensure that data is reliable for analysis."
+    },
+    {
+        "question": "What is a data mart?",
+        "answer": "A data mart is a subset of a data warehouse focused on a specific business function, such as sales, marketing, or finance. It allows for quicker and more targeted analysis within that area."
+    },
+    {
+        "question": "What is Airflow, and how is it used in data engineering?",
+        "answer": "Apache Airflow is a workflow management tool that helps automate and schedule data pipelines. In data engineering, it is used to manage ETL jobs and other automated tasks, ensuring that data flows seamlessly through the pipeline."
+    },
+    {
+        "question": "What is Apache Spark, and why is it popular in data engineering?",
+        "answer": "Apache Spark is a fast, in-memory data processing framework popular for large-scale data engineering tasks. It supports distributed data processing, allowing for faster analysis and transformations on big data."
+    },
+    {
+        "question": "What is data lineage?",
+        "answer": "Data lineage is the tracking of data’s origin, transformations, and movement through data pipelines. It helps in understanding how data flows from source to destination, which is useful for debugging, auditing, and ensuring data accuracy."
+    },
+    {
+        "question": "What is the difference between a data engineer and a data scientist?",
+        "answer": "Data engineers focus on building infrastructure for data generation, storage, and processing, while data scientists focus on analyzing and interpreting data. Data engineers create the systems and pipelines that data scientists use to derive insights."
+    }
+]
